@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">wechat</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo">&#xe602;</string>
+    <string name="search">&#xe607;</string>
+    <string name="musicPause">&#xe60f;</string>
+    <string name="table">&#xe60c;</string>
+    <string name="Message">Message</string>
+    <string name="page">我的主页</string>
+    <string name="id_icon_back">&#xe654;</string>
+    <string name="insertAddress">增加通讯录</string>
+    <string name="about">关于APP</string>
+    <string name="about_icon">&#xe607;</string>
+    <string name="login">Login</string>
+    <string name="register">注  册</string>
+    <string name="newUser">新用户</string>
+    <string name="gonowLogin">返回登录</string>
+    <string name="Logout">返回登录</string>
+    <string name="id">id:</string>
+    <string name="name">姓名:</string>
+    <string name="phone">手机号:</string>
+    <string name="qq">QQ号:</string>
+    <string name="address">邮箱地址:</string>
+    <string name="config">提交</string>
+    <string name="update">修改联系人</string>
+    <string name="delete">删除联系人</string>
+    <string name="select">查看联系人</string>
+    <string name="insert">增加联系人</string>
+    <string name="goods">&#xe60d;</string>
+    <string name="loginConfig">登 录</string>
+    <string name="regConfig">马上注册</string>
+    <string name="callphone">打电话</string>
+    <string name="wechat">发短信</string>
+    <string name="email">邮箱号:</string>
+    <string name="Coypright"> Coypright:6.2.0.2015</string>
+    <string name="insertIcon">&#xe661;</string>
+    <string name="updateIcon">&#xe645;</string>
+    <string name="deleteIcon">&#xe8f0;</string>
+    <string name="aboutIcon">&#xe653;</string>
+    <string name="searchIcon">&#xe636;</string>
+    <string name="o">0.0</string>
+	<string name="phoneNumber">请输入11位数的手机号码!</string>
+	<string name="inputNumber">请输入1 至 4 个字符</string>
+</resources>

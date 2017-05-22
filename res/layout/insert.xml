@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45.0dp"
+        android:background="#000" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45.0dp"
+            android:background="@drawable/linetop" >
+
+            <TextView
+                android:id="@+id/insertBack"
+                style="@style/back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/insert"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eee" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/name"
+                style="@style/editTextIntsert"
+                android:hint="@string/name" />
+
+            <EditText
+                android:id="@+id/telphone"
+                style="@style/editTextIntsert"
+                android:hint="@string/phone" />
+
+            <EditText
+                android:id="@+id/address"
+                style="@style/editTextIntsert"
+                android:hint="@string/address" />
+
+            <EditText
+                android:id="@+id/qq"
+                style="@style/editTextIntsert"
+                android:hint="@string/qq"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/submit"
+                style="@style/insertConfig" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

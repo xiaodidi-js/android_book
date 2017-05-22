@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50sp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textColor="#262a3b"
+            android:textSize="60sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp" >
+
+            <EditText
+                android:id="@+id/NewuserText"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="#ffffffff"
+                android:hint="@string/inputNumber"
+                android:maxLength="15" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:background="#ccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp" >
+
+            <EditText
+                android:id="@+id/NewpwdText"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="#ffffffff"
+                android:ems="10"
+                android:hint="@string/inputNumber"
+                android:inputType="textPassword"
+                android:maxLength="15" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:background="#ccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp" >
+
+            <EditText
+                android:id="@+id/NewphoneText"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="#ffffffff"
+                android:hint="@string/phoneNumber"
+                android:maxLength="15" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp" >
+
+        <Button
+            android:id="@+id/RegisterConfig"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:background="@drawable/selectcolor"
+            android:text="@string/regConfig"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <TextView
+                android:id="@+id/loginback"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:background="#ffeeeeee"
+                android:gravity="center"
+                android:text="@string/gonowLogin"
+                android:textColor="#262a3b" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

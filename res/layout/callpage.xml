@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45.0dp"
+        android:background="#000" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45.0dp"
+            android:background="@drawable/linetop" >
+
+            <TextView
+                android:id="@+id/CallBack"
+                style="@style/back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/phone"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="10sp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/CallName"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_weight="8"
+                android:gravity="left|center_vertical"
+                android:src="@drawable/ic_launcher"
+                android:text="@string/about"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:background="#ccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_marginLeft="10sp"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:src="@drawable/ic_launcher"
+                android:text="@string/phone" />
+
+            <TextView
+                android:id="@+id/Number"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_weight="8"
+                android:gravity="left|center_vertical"
+                android:src="@drawable/ic_launcher"
+                android:text="15024219293" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:background="#ccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_marginLeft="10sp"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:src="@drawable/ic_launcher"
+                android:text="@string/email" />
+
+            <TextView
+                android:id="@+id/Email"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_weight="8"
+                android:gravity="left|center_vertical"
+                android:src="@drawable/ic_launcher"
+                android:text="15024219293" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:background="#ccc" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:background="#ccc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55sp" 
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="@drawable/selectcolor"
+            android:text="@string/callphone"
+            android:textColor="#fff" />
+      
+    </LinearLayout>
+
+</LinearLayout>
